@@ -1,0 +1,68 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Play;
+    font-style: normal;
+    font-weight: normal;
+}
+body {
+    background-color: #E8E8E8;
+    
+}
+#taskBar {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+h1 {
+    font-size: 300%;
+}
+p {
+    font-size: 90%;
+}
+
+#main-soundboard {
+}
+.flex-pop {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin-left: 5%;
+    zoom: 0.75;
+    -moz-transform: scale(0.75);
+}
+
+.flex-rap {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin-left: 9%;
+    zoom: 0.75;
+    -moz-transform: scale(0.75);
+} 
+
+.flex-rock {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin-left: 12%;
+    margin-right: auto;
+    zoom: 0.75;
+    -moz-transform: scale(0.75);
+}
+
+.flex-meme {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin-left: 16%;
+    zoom: 0.75;
+    -moz-transform: scale(0.75);
+}
+.clickable-box {
+    height: 175px;
+    width: 175px;
+    margin-top: 0.5%;
+    background-color: gray;
+    border: black solid 1px;
+    
+}
