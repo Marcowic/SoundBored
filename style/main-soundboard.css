@@ -1,0 +1,52 @@
+#main-soundboard {
+    padding-left: 10%;
+    padding-right: 10%
+}
+.flex-pop {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    margin-left: 5%;
+    margin-right: auto;
+    zoom: 0.75;
+    -moz-transform: scale(0.75);
+}
+
+.flex-rap {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    margin-left: 9%;
+    margin-right: auto;
+    zoom: 0.75;
+    -moz-transform: scale(0.75);
+} 
+
+.flex-rock {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    margin-left: 12%;
+    margin-right: auto;
+    zoom: 0.75;
+    -moz-transform: scale(0.75);
+    
+}
+
+.flex-meme {
+    display: flex;
+    flex-direction: row;
+    margin-left: 16%;
+    zoom: 0.75;
+    margin-right: auto;
+    -moz-transform: scale(0.75);
+    width: fit-content;
+}
+.clickable-box {
+    height: 175px;
+    width: 175px;
+    margin-top: 0.5%;
+    background-color: gray;
+    /* border: black solid 1px; */
+    
+}
