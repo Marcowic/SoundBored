@@ -10,6 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="style/buttons/rap.css"/>
 	<link rel="stylesheet" type="text/css" href="style/buttons/rock.css"/>
 	<link rel="stylesheet" type="text/css" href="style/buttons/meme.css"/>
+</div>
 </head>
 
 <body>
@@ -21,15 +22,15 @@
 	<!-- Pop row  -->
 		<div class="flex-pop">
 			<div class="clickable-box" id="pop1">
-				<p>pop</p>
+				<input type="button" value = "pop1" onclick = "playInstrument('pop1.mp3')"/>
 			</div>
 
 			<div class="clickable-box" id="pop2">
-				<p>pop</p>
+				<input type="button" value = "pop2" onclick = "playInstrument('pop2.mp3')"/>
 			</div>
 
 			<div class="clickable-box" id="pop3">
-				<p>pop</p>
+				<input type="button" value = "pop3" onclick = "playInstrument('pop3.mp3')"/>
 			</div>
 
 			<div class="clickable-box" id="pop4">
@@ -179,9 +180,9 @@
 </div>
 <!-- Play back / recording section -->
 <div id = "recording-section" >
-
-
+	<input id="playButton" type = "button" value = "Click Me" />
 </div>
-</body>
 
+<script src = "scripts/sampler.js" type = "text/javascript"></script>
+</body>
 </html>
