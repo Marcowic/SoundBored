@@ -17,3 +17,4 @@ function playInstrument(instrument){
 	audio.src = "audio/instruments/" + instrument;
 	audio.play();
 }
+
