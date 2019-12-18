@@ -1,7 +1,6 @@
 
-function myFunction(event) {
+document.onkeydown = function(event) {
     var x = event.which || event.keyCode;
-    var audio = new Audio()
     // 1234567890
     if (x == 49) { // 1
         playAudio1();
