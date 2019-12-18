@@ -118,7 +118,7 @@ function myFunction(event) {
 
 //1234567890
 function playAudio1(){
-    var a = new Audio("pop1.mp3"); //add audio
+    var a = new Audio("audio/instruments/pop/pop1.mp3"); //add audio
     a.play();
 }
 
