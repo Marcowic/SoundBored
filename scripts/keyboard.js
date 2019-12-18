@@ -1,7 +1,6 @@
 
-function myFunction(event) {
+document.onkeydown = function(event) {
     var x = event.which || event.keyCode;
-    var audio = new Audio()
     // 1234567890
     if (x == 49) { // 1
         playAudio1();
@@ -118,184 +117,184 @@ function myFunction(event) {
 
 //1234567890
 function playAudio1(){
-    var a = new Audio("pop1.mp3"); //add audio
+    var a = new Audio("audio/instruments/pop/pop1.mp3"); 
     a.play();
 }
 
 function playAudio2(){
-    var a = new Audio("pop2.mp3"); //add audio
+    var a = new Audio("audio/instruments/pop/pop2.mp3"); 
     a.play();
 }
 
 function playAudio3(){
-    var a = new Audio("pop3.mp3"); //add audio
+    var a = new Audio("audio/instruments/pop/pop3.mp3"); 
     a.play();
 }
 
 function playAudio4(){
-    var a = new Audio("pop4.mp3"); //add audio
+    var a = new Audio("audio/instruments/pop/pop4.mp3"); 
     a.play();
 }
 
 function playAudio5(){
-    var a = new Audio("pop5.mp3"); //add audio
+    var a = new Audio("audio/instruments/pop/pop5.mp3"); 
     a.play();
 }
 
 function playAudio6(){
-    var a = new Audio("pop6.mp3"); //add audio
+    var a = new Audio("audio/instruments/pop/pop6.mp3"); 
     a.play();
 }
 
 function playAudio7(){
-    var a = new Audio("pop7.mp3"); //add audio
+    var a = new Audio("audio/instruments/pop/pop7.mp3"); 
     a.play();
 }
 
 function playAudio8(){
-    var a = new Audio("pop8.mp3"); //add audio
+    var a = new Audio("audio/instruments/pop/pop8.mp3"); 
     a.play();
 }
 
 function playAudio9(){
-    var a = new Audio("pop9.mp3"); //add audio
+    var a = new Audio("audio/instruments/pop/pop9.mp3"); 
     a.play();
 }
 
 function playAudio0(){
-    var a = new Audio("pop10.mp3"); //add audio
+    var a = new Audio("audio/instruments/pop/pop10.mp3"); 
     a.play();
 }
 
 //QWERTYUIOP
 function playAudioQ(){
-    var a = new Audio("rap1.mp3"); //add audio
+    var a = new Audio("audio/instruments/rap/rap1.mp3"); 
     a.play();
 }
 
 function playAudioW(){
-    var a = new Audio("rap2.mp3"); //add audio
+    var a = new Audio("audio/instruments/rap/rap2.mp3"); 
     a.play();
 }
 
 function playAudioE(){
-    var a = new Audio("rap3.mp3"); //add audio
+    var a = new Audio("audio/instruments/rap/rap3.mp3"); 
     a.play();
 }
 
 function playAudioR(){
-    var a = new Audio("rap1.mp3"); //add audio
+    var a = new Audio("audio/instruments/rap/rap1.mp3"); 
     a.play();
 }
 
 function playAudioT(){
-    var a = new Audio("rap4.mp3"); //add audio
+    var a = new Audio("audio/instruments/rap/rap4.mp3"); 
     a.play();
 }
 
 function playAudioY(){
-    var a = new Audio("rap5.mp3"); //add audio
+    var a = new Audio("audio/instruments/rap/rap5.mp3"); 
     a.play();
 }
 
 function playAudioU(){
-    var a = new Audio("rap6.mp3"); //add audio
+    var a = new Audio("audio/instruments/rap/rap6.mp3"); 
     a.play();
 }
 
 function playAudioI(){
-    var a = new Audio("rap7.mp3"); //add audio
+    var a = new Audio("audio/instruments/rap/rap7.mp3"); 
     a.play();
 }
 
 function playAudioO(){
-    var a = new Audio("rap8.mp3"); //add audio
+    var a = new Audio("audio/instruments/rap/rap8.mp3"); 
     a.play();
 }
 
 function playAudioP(){
-    var a = new Audio("rap9.mp3"); //add audio
+    var a = new Audio("audio/instruments/rap/rap9.mp3"); 
     a.play();
 }
 
 //ASDFGHJKL
 function playAudioA(){
-    var a = new Audio("rock1.mp3"); //add audio
+    var a = new Audio("audio/instruments/rock/rock1.mp3"); 
     a.play();
 }
 
 function playAudioS(){
-    var a = new Audio("rock2.mp3"); //add audio
+    var a = new Audio("audio/instruments/rock/rock2.mp3"); 
     a.play();
 }
 
 function playAudioD(){
-    var a = new Audio("rock3.mp3"); //add audio
+    var a = new Audio("audio/instruments/rock/rock3.mp3"); 
     a.play();
 }
 
 function playAudioF(){
-    var a = new Audio("rock4.mp3"); //add audio
+    var a = new Audio("audio/instruments/rock/rock4.mp3"); 
     a.play();
 }
 
 function playAudioG(){
-    var a = new Audio("rock5.mp3"); //add audio
+    var a = new Audio("audio/instruments/rock/rock5.mp3"); 
     a.play();
 }
 
 function playAudioH(){
-    var a = new Audio("rock6.mp3"); //add audio
+    var a = new Audio("audio/instruments/rock/rock6.mp3"); 
     a.play();
 }
 
 function playAudioJ(){
-    var a = new Audio("rock7.mp3"); //add audio
+    var a = new Audio("audio/instruments/rock/rock7.mp3"); 
     a.play();
 }
 
 function playAudioK(){
-    var a = new Audio("rock8.mp3"); //add audio
+    var a = new Audio("audio/instruments/rock/rock8.mp3"); 
     a.play();
 }
 
 function playAudioL(){
-    var a = new Audio("rock9.mp3"); //add audio
+    var a = new Audio("audio/instruments/rock/rock9.mp3"); 
     a.play();
 }
 
 //ZXCVBNM
 function playAudioZ(){
-    var a = new Audio("meme1.mp3"); //add audio
+    var a = new Audio("audio/instruments/meme/meme1.mp3"); 
     a.play();
 }
 
 function playAudioX(){
-    var a = new Audio("meme2.mp3"); //add audio
+    var a = new Audio("audio/instruments/meme/meme2.mp3"); 
     a.play();
 }
 
 function playAudioC(){
-    var a = new Audio("meme3.mp3"); //add audio
+    var a = new Audio("audio/instruments/meme/meme3.mp3"); 
     a.play();
 }
 
 function playAudioV(){
-    var a = new Audio("meme4.mp3"); //add audio
+    var a = new Audio("audio/instruments/meme/meme4.mp3"); 
     a.play();
 }
 
 function playAudioB(){
-    var a = new Audio("meme5.mp3"); //add audio
+    var a = new Audio("audio/instruments/meme/meme5.mp3"); 
     a.play();
 }
 
 function playAudioN(){
-    var a = new Audio("meme6.mp3"); //add audio
+    var a = new Audio("audio/instruments/meme/meme6.mp3"); 
     a.play();
 }
 
 function playAudioM(){
-    var a = new Audio("meme7.mp3"); //add audio
+    var a = new Audio("audio/instruments/meme/meme7.mp3"); 
     a.play();
 }
