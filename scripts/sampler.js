@@ -15,7 +15,6 @@ function playInstrument(instrument){
 	audio.play();
 }
 
-<<<<<<< HEAD
 var i = 0;
 function moveProgressBar() {
   if (i == 0) {
@@ -34,5 +33,3 @@ function moveProgressBar() {
     }
   }
 }
-=======
->>>>>>> ac96e1347485f6ec4063c44f2ca2bb18118ca7f9
