@@ -1,4 +1,3 @@
-
 document.onkeydown = function(event) {
     var x = event.which || event.keyCode;
     // 1234567890
@@ -183,37 +182,37 @@ function playAudioE(){
 }
 
 function playAudioR(){
-    var a = new Audio("audio/instruments/rap/rap1.mp3"); 
-    a.play();
-}
-
-function playAudioT(){
     var a = new Audio("audio/instruments/rap/rap4.mp3"); 
     a.play();
 }
 
-function playAudioY(){
+function playAudioT(){
     var a = new Audio("audio/instruments/rap/rap5.mp3"); 
     a.play();
 }
 
-function playAudioU(){
+function playAudioY(){
     var a = new Audio("audio/instruments/rap/rap6.mp3"); 
     a.play();
 }
 
-function playAudioI(){
+function playAudioU(){
     var a = new Audio("audio/instruments/rap/rap7.mp3"); 
     a.play();
 }
 
-function playAudioO(){
+function playAudioI(){
     var a = new Audio("audio/instruments/rap/rap8.mp3"); 
     a.play();
 }
 
-function playAudioP(){
+function playAudioO(){
     var a = new Audio("audio/instruments/rap/rap9.mp3"); 
+    a.play();
+}
+
+function playAudioP(){
+    var a = new Audio("audio/instruments/rap/rap10.mp3"); 
     a.play();
 }
 
