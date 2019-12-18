@@ -18,8 +18,12 @@ body {
     background-size: cover;
 }
 #taskBar {
-    margin-top: 2%;
+    margin-top: 0%;
     margin-bottom: 2%;
+    background-color:#bababa;
+    opacity: 70%;
+    height: 7%;
+    align-content: center;
 }
 h1 {
     font-size: 300%;
