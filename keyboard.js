@@ -1,5 +1,6 @@
 function myFunction(event) {
     var x = event.which || event.keyCode;
+    var audio = new Audio()
     // 1234567890
     if (x == 49) { // 1
         playAudio1();
@@ -116,7 +117,7 @@ function myFunction(event) {
 
 //1234567890
 function playAudio1(){
-    var a = new Audio("audio"); //add audio
+    var a = new Audio("legato-jazzy-bass_95bpm_C#_major.wav"); //add audio
     a.play();
 }
 
@@ -167,17 +168,17 @@ function playAudio0(){
 
 //QWERTYUIOP
 function playAudioQ(){
-    var a = new Audio("audio"); //add audio
+    var a = new Audio("dababy-hip-hop-drums_152bpm_D_minor.wav"); //add audio
     a.play();
 }
 
 function playAudioW(){
-    var a = new Audio("audio"); //add audio
+    var a = new Audio("old-school-breakbeat_83bpm_B_major.wav"); //add audio
     a.play();
 }
 
 function playAudioE(){
-    var a = new Audio("audio"); //add audio
+    var a = new Audio("trap-breakbeat-beat_160bpm.wav"); //add audio
     a.play();
 }
 
@@ -264,12 +265,12 @@ function playAudioL(){
 
 //ZXCVBNM
 function playAudioZ(){
-    var a = new Audio("audio"); //add audio
+    var a = new Audio("trust-me_C_major.wav"); //add audio
     a.play();
 }
 
 function playAudioX(){
-    var a = new Audio("audio"); //add audio
+    var a = new Audio("yeah.wav"); //add audio
     a.play();
 }
 
