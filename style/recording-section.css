@@ -1,6 +1,29 @@
 #recording-section {
     margin-top: 1%;
-    height: 29.5%;
+    height:auto;
+    width: auto;
+    border: green solid 1px;
+}
+
+#buttonBar {
+    background-color: white;
+    height: 10%;
+
+}
+
+#channels{
+    height: 100%;
     width: 100%;
-    border: black solid 1px;
+    background-color: white;
+}
+#channels.channel1 {
+    height: 10%;
+    width: 5%;
+    background-color: green;
+}
+#progressBar {
+    height: 30%;
+    width: 0.5%;
+    margin-left: 0%;
+    background-color: red;
 }
