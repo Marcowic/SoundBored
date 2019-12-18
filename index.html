@@ -32,8 +32,10 @@
     </div>
   </div>
   <div id="overlay"></div>
-	 
-<input type="hidden" onkeypress="myFunction()">
+
+<!-- Keyboard buttons -->
+<input type="hidden" onkeypress="myFunction(onKey)">
+
 <div id="main-soundboard">
 	<!-- Pop row  -->
 		<div class="flex-pop">
@@ -111,16 +113,16 @@
 			</div>
 			
 			<div class="clickable-box" >
-				<input id="rap8" type="button" value = "rap8" onclick = "playAudioO()"/>
+				<input id="rap8" type="button" value = "rap8" onclick = "playAudioI()"/>
 			</div>
 			
 			<div class="clickable-box" >
-				<input id="rap9" type="button" value = "rap9" onclick = "playAudioP()"/>
+				<input id="rap9" type="button" value = "rap9" onclick = "playAudioO()"/>
 			</div>
 			
-			<!-- <div class="clickable-box" >
-				<input id="rap10" type="button" value = "rap10" onclick = "playInstrument('rap10.mp3')"/>
-			</div> -->
+			<div class="clickable-box" >
+				<input id="rap10" type="button" value = "rap10" onclick = "playAudioP()"/>
+			</div>
 		</div>
 
 	<!-- Rock row  -->
