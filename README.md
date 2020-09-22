@@ -1,3 +1,5 @@
-# Group31_UserInterface
+# SoundBored
 
-Group 31 UI implementation
+## It is what it is. Playing with sounds when I'm bored.
+
+<p align="center"><img src="images/main.png" width="650"></p>
