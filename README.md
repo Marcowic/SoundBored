@@ -1,4 +1,4 @@
-# SoundBored
+# [SoundBored](https://mikocotoner.github.io/#)
 
 ## It is what it is. Playing with sounds when I'm bored.
 
